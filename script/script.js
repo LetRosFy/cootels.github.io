@@ -12,3 +12,14 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+  $('.one-time').slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    adaptiveHeight: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });

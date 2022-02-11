@@ -54,8 +54,7 @@ body {
   color: #192252;
 }
 .cootels__link:hover {
-  color: #192252;
-  border-bottom: 2px solid #192252;
+ color: #ff620a;
 }
 .cootels__link:last-child {
   margin: 0 32px 0;
@@ -67,7 +66,6 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .btn:hover {
-  border: 2px solid #192252;
   background: none;
   color: #192252;
 }
@@ -127,6 +125,7 @@ body {
   margin-top: 80px;
   margin-bottom: 177px;
 }
+
 .hero__img:nth-child(2) {
   margin: 161px 24px 96px;
 }
@@ -289,7 +288,12 @@ body {
   line-height: 150%;
   color: #424f7b;
 }
-
+.card__text{
+  margin-left: 7px;
+}
+.card__img{
+  width: 100%;
+}
 .card__links {
   display: flex;
   flex-direction: row;
@@ -303,7 +307,7 @@ body {
 }
 .card__link:hover {
   padding: 0 0 10px;
-  box-shadow: 10px 8px 10px 2px rgba(25, 34, 82, 0.31);
+  box-shadow: 1px 1px 20px 6px rgb(25 34 82 / 31%);;
 }
 
 /* ROOM */
@@ -317,6 +321,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .room__head_title {
   font-family: Inter;
   font-style: normal;
@@ -443,10 +448,13 @@ body {
 }
 
 /* TESTIMONI */
+.testimoni__item_cards{
+  margin-top: 80px;
+}
 .testimoni__item {
   display: flex;
   justify-content: center;
-  padding: 80px 0 82px;
+  padding: 62px 0 24px;
 }
 .testimoni__items {
   display: flex;
@@ -460,7 +468,6 @@ body {
   font-size: 36px;
   line-height: 150%;
   /* identical to box height, or 54px */
-  margin-bottom: 62px;
   text-align: center;
   letter-spacing: -0.01em;
 
@@ -484,9 +491,7 @@ body {
   font-size: 20px;
   line-height: 150%;
   /* identical to box height, or 30px */
-
   text-align: center;
-
   color: #192252;
 }
 /* FOOTER */
@@ -523,6 +528,10 @@ body {
 .fab {
   color: white;
   font-size: 36px;
+  transition: all 0.2s ease-in-out;
+}
+.fab:hover{
+  color: #ff620a;
 }
 .social__link:nth-last-child(2) {
   margin: 0 24px 0;
@@ -550,6 +559,10 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #d9dbde;
+  transition: all 0.2s ease-in-out;
+}
+.footer__link:hover{
+  color: #ff620a;
 }
 .nav__footer_list li {
   margin-bottom: 24px;
