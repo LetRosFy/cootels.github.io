@@ -569,7 +569,8 @@ body {
 }
 
 
-@media  screen and (max-width:1180px){
+@media  screen and (min-width:768px ) and (max-width:1180px){
+  
   .container {
     max-width: 760px;
   }
@@ -645,7 +646,7 @@ body {
   font-size:14px;
 }
 .card__title{
-  font-size:30px;
+  font-size:20px;
 }
 .card__suptitle{
   width: 243px;
