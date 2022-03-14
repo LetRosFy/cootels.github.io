@@ -709,3 +709,110 @@ font-size:30px;
   margin: 0 30px 0;
 }
 }
+@media only screen and (min-width : 320px) and (max-width : 840px){
+  .container {
+padding: 0 15px 0;
+    margin: 0 auto;
+  }
+  .cootels__nav{
+    display: none;
+  }
+  .hero__item{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .hero__text{
+    margin-top:55px;
+    align-items: center;
+
+  }
+  .hero__title{
+    font-size:30px;
+    width: 320px;
+  }
+  .hero__suptitle{
+    font-size:18px;
+    width: 286px;
+  }
+  .hero__images img{
+    width: 100px;
+    margin-bottom:0;
+  }
+  .hero__img:nth-child(2){
+    margin: 0 4px -56px;
+  }
+  .about__item{
+    flex-direction: column;
+
+  }
+  .abt__img{
+    width: 350px;
+  }
+  .about__text{
+    align-items: center;
+  }
+  .about__title{
+    font-size: 30px;
+    width: 368px;
+    text-align: center;
+  }
+  .about__suptitle{
+    text-align: start;
+    width: 354px;
+  }
+  .benefit__items{
+flex-direction: column;
+
+  }.benefit__item{
+    padding-top: 0;
+  }
+
+  .benefit__title{
+    width: 354px;
+    text-align: center;
+  }
+  .benefit__suptitle{
+    width: 385px;
+    margin: 15px 0 15px;
+    text-align: center;
+
+  }
+  .benefit__img img{
+    width: 350px;
+  }
+  .benefit__items:last-child{
+    flex-direction: column-reverse;
+  }
+  .reservation__title{
+    width:350px;
+    font-size: 30px;
+  }
+  .reservation__suptitle{
+    width: 350px;
+  }
+  .reservation__item{
+    padding-top: 10px;
+  }
+  .reservation__cards{
+    flex-direction: column
+  }
+  .reservation__card:nth-child(2){
+    margin: 15px 0 15px;
+  }
+  .card__link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card__suptitle{
+    width: 350px;
+
+  }
+  .card__link:hover {
+    padding: 0 0 0;
+    box-shadow: none;
+}
+.rooms__item{
+  flex-direction: column
+}
+}
