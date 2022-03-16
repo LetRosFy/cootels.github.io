@@ -858,7 +858,7 @@ flex-direction: column;
   font-size:16px;
 }
 .logo__suptitle{
-  font-size:12px;
+  font-size:10px;
   margin: 5px ;
   width:100px;
   line-height:18px;
@@ -868,6 +868,7 @@ flex-direction: column;
 }
 .name__list{
   font-size:12px;
+  margin-bottom:8px;
 }
 .footer__link{
   font-size:10px;
