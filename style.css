@@ -813,6 +813,66 @@ flex-direction: column;
     box-shadow: none;
 }
 .rooms__item{
-  flex-direction: column
+  flex-direction: column;
+  padding-top: 40px;
+}
+.room__text{
+  align-items: center;
+}
+.accordion{
+  width: 358px;
+  font-size:20px;
+  margin-bottom:0;
+}
+.accordion:after{
+  margin-right: 0;
+}
+.panel p{
+  width: 316px;
+  font-size:14px;
+}
+.room__links{
+  margin-bottom:20px;
+}
+.room__title{
+  font-size:30px;
+}
+.room__suptitle{
+  text-align:center;
+  width: 284px;
+}
+.testimonis__title{
+  font-size:30px;
+}
+.testimonis__text{
+  width:293px;
+}
+.footer{
+  padding: 40px 0 30px;
+}
+.fot__title{
+  font-size:20px;
+
+}
+.fab{
+  font-size:16px;
+}
+.logo__suptitle{
+  font-size:12px;
+  margin: 5px ;
+  width:100px;
+  line-height:18px;
+}
+.nav__footer_list:nth-last-child(2){
+  margin: 0 5px 0;
+}
+.name__list{
+  font-size:12px;
+}
+.footer__link{
+  font-size:10px;
+}
+.nav__footer_list li{
+  margin-bottom:10px;
 }
 }
