@@ -876,4 +876,7 @@ flex-direction: column;
 .nav__footer_list li{
   margin-bottom:10px;
 }
+.social__link:nth-last-child(2) {
+  margin: 0 4px 0;
+}
 }
